@@ -4,6 +4,16 @@ New Relic event reporting for react native.
 
 > also check out https://github.com/wix/sentry-monitor
 
+## THIS FORK'S UPDATES
+
+This fork merges the following PRs.
+
+* [https://github.com/wix/react-native-newrelic/pull/28](https://github.com/wix/react-native-newrelic/pull/28)
+* [https://github.com/wix/react-native-newrelic/pull/26](https://github.com/wix/react-native-newrelic/pull/26)
+* [https://github.com/wix/react-native-newrelic/pull/24](https://github.com/wix/react-native-newrelic/pull/24)
+
+When these are all merged, this fork will no longer be needed.
+
 ## Features
 * `overrideConsole` will send all console.log, warn and errors to New Relic.
 * `reportUncaughtExceptions` will send uncaught Javascript exceptions to New Relic.
@@ -17,7 +27,7 @@ More to come!
 ```bash
 npm install react-native-newrelic --save
 ```
-## iOS 
+## iOS
 #### 1. Install New RelicAgent in your project
 ##### Option 1 (Using Cocoapods):
 In the Podfile for your project, add the following line:
@@ -53,7 +63,7 @@ Add the following:
 }
 ```
 
-And add the following line to the top of your didFinishLaunchingWithOptions function: 
+And add the following line to the top of your didFinishLaunchingWithOptions function:
 
 ``` objective-c
   [self setupNewRelic];
@@ -65,7 +75,7 @@ Add a `PrefixHeader.pch` file as explained [here](https://docs.newrelic.com/docs
 Your file should look like this:
 
 ``` objective-c
-#ifdef __OBJC__ 
+#ifdef __OBJC__
 
 #import <NewRelicAgent/NewRelic.h>
 
@@ -106,7 +116,7 @@ com.newrelic.application_token= yourApplicationToken
 > Get your application token from newrelic.com
 
 
- 
+
 #### 2. Add the `react-native-newrelic` module to your Android project
 
 In `settings.gradle`:
