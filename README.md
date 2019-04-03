@@ -11,6 +11,7 @@ This fork merges the following PRs.
 * [https://github.com/wix/react-native-newrelic/pull/28](https://github.com/wix/react-native-newrelic/pull/28)
 * [https://github.com/wix/react-native-newrelic/pull/26](https://github.com/wix/react-native-newrelic/pull/26)
 * [https://github.com/wix/react-native-newrelic/pull/24](https://github.com/wix/react-native-newrelic/pull/24)
+* [https://github.com/wix/react-native-newrelic/pull/37](https://github.com/wix/react-native-newrelic/pull/37)
 
 When these are all merged, this fork will no longer be needed.
 
